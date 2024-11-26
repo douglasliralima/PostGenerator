@@ -7,6 +7,9 @@ name = "pypi"
 django = "*"
 requests = "*"
 djangorestframework = "*"
+tweepy = "*"
+praw = "*"
+python-decouple = "*"
 
 [dev-packages]
 

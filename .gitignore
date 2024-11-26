@@ -38,3 +38,6 @@ Thumbs.db
 */migrations/*.pyo
 */migrations/*.log
 */migrations/*.pot
+
+#Environtment
+.env

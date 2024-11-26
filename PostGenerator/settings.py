@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'study'
+    'study',
+    'scrapper',
 ]
 
 MIDDLEWARE = [
@@ -123,3 +124,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+from decouple import config
+
+TWITTER_API_KEY = config('TWITTER_API_KEY')
+TWITTER_API_SECRET = config('TWITTER_API_SECRET')
+TWITTER_ACCESS_TOKEN = config('TWITTER_ACCESS_TOKEN')
+TWITTER_ACCESS_SECRET = config('TWITTER_ACCESS_SECRET')
+
+REDDIT_CLIENT_ID = config('REDDIT_CLIENT_ID')
+REDDIT_CLIENT_SECRET = config('REDDIT_CLIENT_SECRET')
+REDDIT_USER_AGENT = config('REDDIT_USER_AGENT')
