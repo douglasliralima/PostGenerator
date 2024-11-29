@@ -10,6 +10,9 @@ djangorestframework = "*"
 tweepy = "*"
 praw = "*"
 python-decouple = "*"
+pytesseract = "*"
+googletrans = "==4.0.0-rc1"
+pillow = "*"
 
 [dev-packages]
 

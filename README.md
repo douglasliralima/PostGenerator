@@ -1,3 +1,4 @@
+
 # Django Project
 
 This is a Django project that provides an API for various features. It uses **Pipenv** to manage dependencies and virtual environments.
@@ -14,6 +15,14 @@ To install Pipenv, run:
 
 ```bash
 pip install pipenv
+```
+
+Additionally, some Linux-specific dependencies need to be installed. Run the following:
+
+```bash
+sudo apt update
+sudo apt install tesseract-ocr
+sudo apt install ttf-mscorefonts-installer
 ```
 
 ## Installation
